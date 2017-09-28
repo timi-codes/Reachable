@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Country Code"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:ccpDialog_showPhoneCode="true"
+        app:ccp_showNameCode="false"
+        app:ccp_showPhoneCode="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile_number"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/phnumber_et"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="@color/colorLightGrey"
+        android:ems="8"
+        android:inputType="number"
+        tools:text="@string/mobile_text"
+        android:maxLength="17"
+        android:textSize="20sp"/>
+</LinearLayout>

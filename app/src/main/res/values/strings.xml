@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Reachable</string>
+    <string name="hi_text">Hi.</string>
+    <string name="getstarted_text">Let\'s Get You Started</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="proceed_text">PROCEED</string>
+    <string name="waiting_text">Waiting to automatically detect an SMS sent to your mobile number</string>
+    <string name="digit_text">Enter 4 - Digit code</string>
+    <string name="mobile_text">+234 - 8174847684</string>
+    <string name="didnotrecieve">Didn\'t receive the code ?</string>
+    <string name="resend_text" >RESEND CODE</string>
+    <string name="reachable_logo">Reachable Logo</string>
+    <string name="error_phone_no">Invalid Phone Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="countrycode_format">%s -  </string>
+    <string name="fullphonenumber_format">%s - %s</string>
+    <string name="timeelapsed_format">%02d SECONDS</string>
+</resources>
